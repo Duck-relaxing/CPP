@@ -1,13 +1,12 @@
 #include <iostream>
+
 using namespace std;
-int main(){
-    int numMax;
-    cout << "¿Hasta que número quieres que cuente? " << endl;
-    cin >> numMax;
-    for (int i = 0; i <= numMax; i++)
-    {
-        cout << i << endl;
-    }
-    
+
+int main() {
+
+char letra = 'a';
+cin >> letra;
+int res = letra - '`';
+cout << res;
 
 }
